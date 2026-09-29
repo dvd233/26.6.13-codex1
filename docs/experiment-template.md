@@ -10,6 +10,8 @@ State the behavior or question being tested in one sentence.
 
 Record the repository revision, runtime or tool versions, operating system, and any data or network limits that affect the result.
 
+For tests that expect a non-repository directory, record the temporary-directory location and verify the [Git discovery boundary](git-test-isolation.md).
+
 ## Reproduction
 
 List the smallest command sequence or UI steps that reproduces the behavior. Keep secrets and private data out of the note.
